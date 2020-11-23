@@ -764,7 +764,7 @@ source = ["Cython (>=0.29.7)"]
 
 [[package]]
 name = "m2r2"
-version = "0.2.6"
+version = "0.2.7"
 description = "Markdown and reStructuredText in a single file."
 category = "dev"
 optional = false
@@ -1544,7 +1544,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "82b3f215f6e5c8ea119677ec92945abea6941ff3f2c4cf423a4752a932fc9654"
+content-hash = "3c6a9458988dcb600ac7e1ab7b486ce2c047619b03c5d9f0f680c0c04846f495"
 
 [metadata.files]
 added-value = [
@@ -1862,8 +1862,8 @@ lxml = [
     {file = "lxml-4.6.1.tar.gz", hash = "sha256:c152b2e93b639d1f36ec5a8ca24cde4a8eefb2b6b83668fcd8e83a67badcb367"},
 ]
 m2r2 = [
-    {file = "m2r2-0.2.6-py3-none-any.whl", hash = "sha256:fcaa04878f889e53f0629792d517348d64d4e5af81a9b9317d8b42eec09b28ec"},
-    {file = "m2r2-0.2.6.tar.gz", hash = "sha256:598be13b9bc20afbeaf47a09eb3c107e2de9c83982747ebb4143f29bbf653fa1"},
+    {file = "m2r2-0.2.7-py3-none-any.whl", hash = "sha256:a1b87b00f4d5163a3616253fca4c045f8351818cd803ba2e24af8897442a0eae"},
+    {file = "m2r2-0.2.7.tar.gz", hash = "sha256:fbf72ade9f648d41658f97c5267687431612451f36b65761a138fbc276294df5"},
 ]
 markupsafe = [
     {file = "MarkupSafe-1.1.1-cp27-cp27m-macosx_10_6_intel.whl", hash = "sha256:09027a7803a62ca78792ad89403b1b7a73a01c8cb65909cd876f7fcebd79b161"},
@@ -2080,6 +2080,8 @@ restructuredtext-lint = [
     {file = "ruamel.yaml.clib-0.2.2-cp38-cp38-win_amd64.whl", hash = "sha256:058a1cc3df2a8aecc12f983a48bda99315cebf55a3b3a5463e37bb599b05727b"},
     {file = "ruamel.yaml.clib-0.2.2-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:c6ac7e45367b1317e56f1461719c853fd6825226f45b835df7436bb04031fd8a"},
     {file = "ruamel.yaml.clib-0.2.2-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:b4b0d31f2052b3f9f9b5327024dc629a253a83d8649d4734ca7f35b60ec3e9e5"},
+    {file = "ruamel.yaml.clib-0.2.2-cp39-cp39-win32.whl", hash = "sha256:46d6d20815064e8bb023ea8628cfb7402c0f0e83de2c2227a88097e239a7dffd"},
+    {file = "ruamel.yaml.clib-0.2.2-cp39-cp39-win_amd64.whl", hash = "sha256:6c0a5dc52fc74eb87c67374a4e554d4761fd42a4d01390b7e868b30d21f4b8bb"},
     {file = "ruamel.yaml.clib-0.2.2.tar.gz", hash = "sha256:2d24bd98af676f4990c4d715bcdc2a60b19c56a3fb3a763164d2d8ca0e806ba7"},
 ]
 safety = [
